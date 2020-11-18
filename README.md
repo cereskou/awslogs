@@ -34,3 +34,10 @@ awslogs --dir c:\tmp\logs --prefix batch-bt1200 --from 202008 --to 202009 --list
 **Multi-Process download**<br>
 awslogs --dir c:\tmp\logs --prefix batch-bt1200 --from 202008 --to 202009 --process 3
 
+## How to build
+**Windows**<br>
+just execute the batch file **gobuild.cmd**.
+
+**Linux**<br>
+execute the batch file **gobuild-linux.cmd**.
+
